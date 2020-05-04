@@ -1,0 +1,10 @@
+{
+  "name": "approuter",
+  "dependencies": {
+    "@sap/approuter": "^2.7.0"
+  },
+  "scripts": {
+    "build": "ui5 build --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
+    "start": "set port=8080&&node node_modules/@sap/approuter"
+  }
+}
