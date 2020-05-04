@@ -74,7 +74,7 @@
 				"async": true,
 				"viewPath": "com.shunyu.lujb.fiori-training-one.view",
 				"controlAggregation": "pages",
-				"controlId": "idAppControl",
+				"controlId": "app",
 				"clearControlAggregation": false
 			},
 			"routes": [{
