@@ -74,20 +74,37 @@
 				"async": true,
 				"viewPath": "com.shunyu.lujb.fiori-training-one.view",
 				"controlAggregation": "pages",
-				"controlId": "app",
-				"clearControlAggregation": false
+				"controlId": "app"
 			},
 			"routes": [{
-				"name": "RouteApp",
-				"pattern": "RouteApp",
-				"target": ["TargetApp"]
+				"pattern": "",
+				"name": "startTrip",
+				"target": ["startTrip"]
+			},{
+				"pattern": "createTicket",
+				"name": "createTicket",
+				"target": ["createTicket"]
+			},{
+				"pattern": "endTrip",
+				"name": "endTrip",
+				"target": ["endTrip"]
 			}],
 			"targets": {
-				"TargetApp": {
-					"viewType": "XML",
-					"transition": "slide",
-					"clearControlAggregation": false,
-					"viewName": "App"
+				"startTrip": {
+					"viewName": "StartTrip",
+					"viewId": "StartTrip",
+					"viewLevel": 1
+				},
+				"createTicket": {
+					"viewName": "CreateTicket",
+					"viewId": "CreateTicket",
+					"viewLevel": 2
+				},
+				"endTrip":
+				{
+					"viewName": "EndTrip",
+					"viewId": "EndTrip",
+					"viewLevel": 2
 				}
 			}
 		}
