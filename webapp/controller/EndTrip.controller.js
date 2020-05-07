@@ -93,8 +93,6 @@ sap.ui.define([
 		},
 		onCheckOutPress: function () {
 			MessageToast.show("Congratulation!\nCheckOut Success.");
-			var bCheckOutEnabled = false;
-			this.oPageJsonModel.setProperty("/checkoutButtonEnabled", bCheckOutEnabled);
 		},
 		onNavBack: function (oEvent) {
 			this._navBack("startTrip", {});

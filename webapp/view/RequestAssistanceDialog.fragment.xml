@@ -4,8 +4,6 @@
     <Dialog title="{i18n>TIT_REQUEST_ASSISTANCE_TITLE}" type="Message">
         <List>
             <ActionListItem text="{i18n>TIT_ACTIONLIST_CREATE_TICKET}" detailPress="active" press="onCreateTicketPress"/>
-            <ActionListItem text="{i18n>TIT_ACTIONLIST_CALL_EFM}" />
-            <ActionListItem text="{i18n>TIT_ACTIONLIST_REQUEST_CALL_BACK}" />
             <ActionListItem text="{i18n>TIT_ACTIONLIST_CANCEL}" detailPress="Active" press="onCancelTicketPress"/>
         </List>
     </Dialog>

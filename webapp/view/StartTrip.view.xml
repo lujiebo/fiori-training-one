@@ -25,7 +25,7 @@
 						icon="{parts:[{path:'page>/reservationDetails/status'}],formatter:'.formatReservationStatusIcon'}" />
                 </statuses>
             </ObjectHeader>
-            <List headerText="Pre-inspection checklist" items="{path:'checkList>/list'}" >
+            <List headerText="{i18n>TIT_PRE_INSPECTION_CHECKLIST}" items="{path:'checkList>/list'}" >
                 <InputListItem label="{checkList>title}">
                     <Switch state="{checkList>checkState}" type= "AcceptReject" change="changeSwitch"/>
                 </InputListItem>

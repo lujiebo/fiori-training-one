@@ -4,7 +4,7 @@ sap.ui.define([
 ], function(BaseController, JSONModel) {
 	"use strict";
 
-	return BaseController.extend("com.shuyun.lujb.fiori-training-one.controller.CreateTicket", {
+	return BaseController.extend("com.shunyu.lujb.fiori-training-one.controller.CreateTicket", {
 		onInit: function() {
 			var oRouter = this.getRouter();
 			oRouter.getRoute("createTicket").attachPatternMatched(this.onRouteMatched, this);
@@ -24,6 +24,7 @@ sap.ui.define([
 		},
 
 		onRouteMatched: function(oEvent) {
+			console.log(oEvent.getParameter("arguments"))
 			this._sTicketFrom = oEvent.getParameter("arguments").ticketfrom;
 			var aTypeMockJsonData = [
 				{

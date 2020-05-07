@@ -27,7 +27,7 @@
 						icon="{parts:[{path:'page>/reservationDetails/status'}],formatter:'.formatReservationStatusIcon'}" />
                 </statuses>
             </ObjectHeader>
-            <List headerText="Check out list" items="{path:'checkOutList>/list'}" >
+            <List headerText="{i18n>TIT_CHECK_OUT_LIST}" items="{path:'checkOutList>/list'}" >
                 <InputListItem label="{checkOutList>title}">
                     <Switch state="{checkOutList>checkState}" type= "AcceptReject" change="changeSwitch"/>
                 </InputListItem>
