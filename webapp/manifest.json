@@ -81,7 +81,7 @@
 				"name": "startTrip",
 				"target": ["startTrip"]
 			},{
-				"pattern": "createTicket",
+				"pattern": "createTicket/{ticketfrom}",
 				"name": "createTicket",
 				"target": ["createTicket"]
 			},{
