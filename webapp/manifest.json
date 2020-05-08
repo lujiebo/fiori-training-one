@@ -3,12 +3,12 @@
 	"sap.app": {
 		"id": "com.shunyu.lujb.fiori-training-one",
 		"type": "application",
-		"i18n": "i18n/i18n.properties",
+		"i18n": "i18n/i18n_en.properties",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "{{appTitle}}",
-		"description": "{{appDescription}}",
+		"title": "{{TIT_APP_TITLE}}",
+		"description": "{{TIT_APP_DESCRIPTION}}",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.38.11"
