@@ -3,13 +3,13 @@
         {
             "source": "^/resources/(.*)$",
             "target": "$1",
-            "localDir": "../../sapui5-sdk-1.74.1/resources",
+            "localDir": "../../../sapui5-sdk-1.74.1/resources",
             "authenticationType": "none"
         },
         {
             "source": "^/test-resources/(.*)$",
             "target": "$1",
-            "localDir": "../../sapui5-sdk-1.74.1/test-resources",
+            "localDir": "../../../sapui5-sdk-1.74.1/test-resources",
             "authenticationType": "none"
         },
         {
