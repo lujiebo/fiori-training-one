@@ -5,6 +5,6 @@
     },
     "scripts": {
         "build": "ui5 build --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
-        "start": "set port=8080&&node node_modules/@sap/approuter"
+        "start": "set port=8082&&node node_modules/@sap/approuter"
     }
 }
